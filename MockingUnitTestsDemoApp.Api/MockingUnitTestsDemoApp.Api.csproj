@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NExpect.Matchers.NSubstitute" Version="2.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MockingUnitTestsDemoApp.Impl\MockingUnitTestsDemoApp.Impl.csproj" />
   </ItemGroup>
 
